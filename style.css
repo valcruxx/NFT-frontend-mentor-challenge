@@ -1,0 +1,119 @@
+/*## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)*/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "outfit", san-serif;
+  background: hsl(217, 54%, 11%);
+}
+#main {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: auto;
+  background: hsl(216, 50%, 16%);
+  border-radius: 10px;
+}
+#image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 20px;
+  background: hsl(178, 100%, 50%);
+}
+#image-div img {
+  width: 100%;
+  border-radius: 10px;
+}
+#image-div img:hover {
+  opacity: 20%;
+}
+#view {
+  position: absolute;
+  max-width: 40px;
+  display: none;
+}
+#view:hover {
+  opacity: 100%;
+}
+#equilibrium {
+  padding-left: 20px;
+  border-bottom: 1px hsl(215, 32%, 27%) solid;
+}
+#equilibrium h3 {
+  color: white;
+}
+#equilibrium h3:hover {
+  color: hsl(178, 100%, 50%);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+#equilibrium p {
+  color: hsl(215, 51%, 70%);
+}
+#info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+#info article {
+  display: flex;
+  align-items: center;
+}
+#eth {
+  color: hsl(178, 100%, 50%);
+}
+#eth img {
+  margin-right: 5px;
+}
+#clock {
+  padding-right: 20px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+}
+#clock img {
+  margin-right: 5px;
+}
+#credit {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: hsl(215, 51%, 70%);
+}
+span {
+  color: white;
+}
+span:hover {
+  color: hsl(178, 100%, 50%);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+#credit img {
+  height: 30px;
+  border: 1px white solid;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.attribution {
+  color: hsl(215, 51%, 70%);
+}
