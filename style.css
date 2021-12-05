@@ -46,6 +46,7 @@ body {
 }
 #image-div img:hover {
   opacity: 20%;
+  cursor:pointer;
 }
 #view {
   position: absolute;
