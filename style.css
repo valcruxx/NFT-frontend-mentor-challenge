@@ -47,6 +47,7 @@ body {
 #image-div img:hover {
   opacity: 20%;
   cursor:pointer;
+  transition:0.3s ease;
 }
 #view {
   position: absolute;
